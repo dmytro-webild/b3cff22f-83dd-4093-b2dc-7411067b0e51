@@ -31,19 +31,19 @@ export default function HomePage() {
           imageSrc: "https://storage.googleapis.com/webild/users/user_3GLo0YRGGsIy7uNuPUjGzkkSL86/uploaded-1787470309335-6jrlopge.png",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/sound-volume-up-front-side-with-white-background_187299-39989.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/sound-volume-up-front-side-with-white-background_187299-39989.jpg?_wi=1",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/information-improvement-data-report_53876-138583.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/information-improvement-data-report_53876-138583.jpg?_wi=1",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/physician-using-blood-pressure-monitor-check-pulse-blood-pressure_482257-112283.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/physician-using-blood-pressure-monitor-check-pulse-blood-pressure_482257-112283.jpg?_wi=1",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/person-running-with-stopwatch_1048-1717.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/person-running-with-stopwatch_1048-1717.jpg?_wi=1",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-typing-laptop-sitting-home-with-automation-lighting-system_482257-8729.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-typing-laptop-sitting-home-with-automation-lighting-system_482257-8729.jpg?_wi=1",
         },
       ]}
       textAnimation="slide-up"
@@ -74,7 +74,7 @@ export default function HomePage() {
           description: "Execute trades faster with context-aware command tools.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/woman-typing-laptop-sitting-home-with-automation-lighting-system_482257-8729.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/woman-typing-laptop-sitting-home-with-automation-lighting-system_482257-8729.jpg?_wi=2"
       textAnimation="fade-blur"
     />
     </SectionErrorBoundary>
@@ -90,22 +90,22 @@ export default function HomePage() {
         {
           title: "Contextual Understanding",
           description: "Never lose sight of why a move matters for your specific portfolio.",
-          imageSrc: "http://img.b2bpic.net/free-photo/sound-volume-up-front-side-with-white-background_187299-39989.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/sound-volume-up-front-side-with-white-background_187299-39989.jpg?_wi=2",
         },
         {
           title: "Fragmented Workflows",
           description: "Consolidate your news feeds, charts, and social data into one place.",
-          imageSrc: "http://img.b2bpic.net/free-photo/information-improvement-data-report_53876-138583.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/information-improvement-data-report_53876-138583.jpg?_wi=2",
         },
         {
           title: "Decision Efficiency",
           description: "Make better trades in less time with AI-driven summaries.",
-          imageSrc: "http://img.b2bpic.net/free-photo/physician-using-blood-pressure-monitor-check-pulse-blood-pressure_482257-112283.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/physician-using-blood-pressure-monitor-check-pulse-blood-pressure_482257-112283.jpg?_wi=2",
         },
         {
           title: "Pro-Grade Control",
           description: "The speed and reliability required for active semi-pro trading.",
-          imageSrc: "http://img.b2bpic.net/free-photo/person-running-with-stopwatch_1048-1717.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/person-running-with-stopwatch_1048-1717.jpg?_wi=2",
         },
       ]}
       textAnimation="slide-up"
