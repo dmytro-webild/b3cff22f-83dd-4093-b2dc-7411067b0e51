@@ -7,35 +7,12 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 
 export default function Layout() {
   const navItems = [
-  {
-    "name": "Product",
-    "href": "#product"
-  },
-  {
-    "name": "How It Works",
-    "href": "#how-it-works"
-  },
-  {
-    "name": "Security",
-    "href": "#security"
-  },
-  {
-    "name": "Company",
-    "href": "#company"
-  },
-  {
-    "name": "Hero",
-    "href": "#hero"
-  },
-  {
-    "name": "Features",
-    "href": "#features"
-  },
-  {
-    "name": "Testimonials",
-    "href": "#testimonials"
-  }
-];
+    { name: "Product", href: "#product" },
+    { name: "Intelligence", href: "#how-it-works" },
+    { name: "Risk", href: "#features" },
+    { name: "Security", href: "#security" },
+    { name: "Company", href: "#company" }
+  ];
 
   return (
     <StyleProvider buttonVariant="bubble" siteBackground="floatingGradient" heroBackground="cornerGlow">
@@ -43,10 +20,10 @@ export default function Layout() {
       <SectionErrorBoundary name="navbar">
         <NavbarInline
       logo="TrabyOS"
-      ctaButton={{
-        text: "Get Early Access",
-        href: "#contact",
-      }}
+        ctaButton={{
+          text: "Get for Mac",
+          href: "#hero",
+        }}
      navItems={navItems} />
       </SectionErrorBoundary>
       <main className="flex-grow">
