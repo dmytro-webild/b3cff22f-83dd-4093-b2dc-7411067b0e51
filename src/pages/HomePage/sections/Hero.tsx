@@ -54,9 +54,7 @@ const HeroInline = () => {
     >
       <HeroBackgroundSlot />
       <div className="flex flex-col items-center gap-3 w-content-width mx-auto text-center">
-        <div className="px-3 py-1 mb-1 text-sm card rounded w-fit">
-          <p>{"Next-Gen Fintech"}</p>
-        </div>
+
 
         <TextAnimation
           text={"Voice trading Interface."}
