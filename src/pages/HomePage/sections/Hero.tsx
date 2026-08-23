@@ -59,7 +59,7 @@ const HeroInline = () => {
         </div>
 
         <TextAnimation
-          text={"Speak to the market. Understand what matters. Act."}
+          text={"Voice trading Interface."}
           variant={"slide-up"}
           gradientText={true}
           tag="h1"
