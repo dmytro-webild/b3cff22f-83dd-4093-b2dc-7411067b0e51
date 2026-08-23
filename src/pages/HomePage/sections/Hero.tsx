@@ -6,7 +6,7 @@ import TextAnimation from "@/components/ui/TextAnimation";
 import ImageOrVideo from "@/components/ui/ImageOrVideo";
 
 const primaryButton = {
-  text: "Get Early Access",
+  text: "Get for Mac",
   href: "#contact"
 };
 const secondaryButton = {
