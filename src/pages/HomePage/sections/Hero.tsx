@@ -54,7 +54,7 @@ const HeroInline = () => {
     >
       <HeroBackgroundSlot />
       <div className="flex flex-col items-center gap-3 w-content-width mx-auto text-center">
-        <div className="px-3 border border-zinc-200 py-1 mb-1 text-xs font-medium rounded-full w-fit bg-zinc-100/80 text-zinc-600">
+        <div className="px-3 py-1 mb-1 text-sm card rounded w-fit">
           <p>{"Next-Gen Fintech"}</p>
         </div>
 
