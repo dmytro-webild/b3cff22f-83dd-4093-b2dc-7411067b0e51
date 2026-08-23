@@ -21,7 +21,7 @@ const NavbarInline = ({ logo, navItems, ctaButton }: NavbarInlineProps) => {
       <div className="flex items-center justify-between p-2 xl:p-3 2xl:p-4 rounded backdrop-blur-sm card">
         <a href="/" className="pl-2 flex items-center gap-2 text-xl font-medium text-foreground">
           <img
-            src="https://storage.googleapis.com/webild/users/user_3GLo0YRGGsIy7uNuPUjGzkkSL86/uploaded-1787471639922-9x2ixa5u.webp"
+            src="https://storage.googleapis.com/webild/users/user_3GLo0YRGGsIy7uNuPUjGzkkSL86/uploaded-1787471935200-l1nnn7dt.png"
             alt="TrabyOS Mark"
             className="h-7 w-7 object-contain rounded"
           />
