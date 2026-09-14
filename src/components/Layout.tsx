@@ -75,7 +75,7 @@ export default function Layout() {
             },
             {
               label: "LinkedIn",
-              href: "#",
+              href: "https://www.linkedin.com/company/trabyos/",
             },
             {
               label: "Discord",
