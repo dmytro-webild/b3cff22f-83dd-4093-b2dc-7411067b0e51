@@ -8,9 +8,8 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 export default function Layout() {
   const navItems = [
     { name: "Product", href: "#product" },
-    { name: "Intelligence", href: "#how-it-works" },
-    { name: "Risk", href: "#features" },
-    { name: "Security", href: "#security" },
+    { name: "Workflow", href: "#how-it-works" },
+    { name: "Control", href: "#security" },
     { name: "Company", href: "#company" }
   ];
 
@@ -19,74 +18,54 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarInline
-      logo="TrabyOS"
-        ctaButton={{
-          text: "Get for Mac",
-          href: "#hero",
-        }}
-     navItems={navItems} />
+          logo="TrabyOS"
+          ctaButton={{
+            text: "Explore TrabyOS",
+            href: "#product",
+          }}
+          navItems={navItems}
+        />
       </SectionErrorBoundary>
       <main className="flex-grow">
         <Outlet />
       </main>
       <SectionErrorBoundary name="footer">
         <FooterBasic
-      columns={[
-        {
-          title: "Product",
-          items: [
+          columns={[
             {
-              label: "Features",
-              href: "#features",
+              title: "TrabyOS",
+              items: [
+                {
+                  label: "Product",
+                  href: "#product",
+                },
+                {
+                  label: "Workflow",
+                  href: "#how-it-works",
+                },
+                {
+                  label: "Control",
+                  href: "#security",
+                },
+                {
+                  label: "Company",
+                  href: "#company",
+                },
+              ],
             },
             {
-              label: "Security",
-              href: "#security",
+              title: "Social",
+              items: [
+                {
+                  label: "LinkedIn",
+                  href: "https://www.linkedin.com/company/trabyos/",
+                },
+              ],
             },
-            {
-              label: "Roadmap",
-              href: "#",
-            },
-          ],
-        },
-        {
-          title: "Company",
-          items: [
-            {
-              label: "About Us",
-              href: "#company",
-            },
-            {
-              label: "Careers",
-              href: "#",
-            },
-            {
-              label: "Privacy",
-              href: "#",
-            },
-          ],
-        },
-        {
-          title: "Social",
-          items: [
-            {
-              label: "Twitter",
-              href: "#",
-            },
-            {
-              label: "LinkedIn",
-              href: "https://www.linkedin.com/company/trabyos/",
-            },
-            {
-              label: "Discord",
-              href: "#",
-            },
-          ],
-        },
-      ]}
-      leftText="© 2024 TrabyOS. All rights reserved."
-      rightText="Designed for active traders."
-    />
+          ]}
+          leftText="TrabyOS — Voice trading interface."
+          rightText="© 2026 TrabyOS. All rights reserved."
+        />
       </SectionErrorBoundary>
     </StyleProvider>
   );
