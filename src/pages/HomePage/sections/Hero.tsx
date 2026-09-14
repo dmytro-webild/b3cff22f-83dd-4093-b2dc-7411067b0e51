@@ -74,7 +74,7 @@ const HeroInline = () => {
         />
 
         <div className="flex justify-center mt-2">
-          <Button text="Get for Mac" href="#how-it-works" variant="primary" />
+          <Button text="Get for Mac" href="#contact" variant="primary" />
         </div>
       </div>
     </section>
