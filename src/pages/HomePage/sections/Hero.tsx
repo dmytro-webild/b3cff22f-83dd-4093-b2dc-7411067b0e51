@@ -52,43 +52,29 @@ const HeroInline = () => {
       aria-label="Hero section"
       className="relative flex flex-col items-center justify-center gap-8 md:gap-10 w-full min-h-svh pt-25 pb-20 md:pt-30"
     >
-      <HeroBackgroundSlot />
-      <div className="flex flex-col items-center gap-3 w-content-width mx-auto text-center">
-
+      <div className="flex flex-col items-center gap-6 w-content-width mx-auto text-center max-w-4xl">
+        <span className="px-3.5 py-1.5 rounded-full bg-[var(--background-accent)] text-xs md:text-sm font-medium text-accent tracking-wide uppercase">
+          Voice trading interface for Mac
+        </span>
 
         <TextAnimation
-          text={"Voice trading Interface."}
+          text={"Your voice. Your market. Your move."}
           variant={"slide-up"}
-          gradientText={true}
+          gradientText={false}
           tag="h1"
-          className="md:max-w-8/10 text-7xl 2xl:text-8xl leading-[1.15] font-semibold text-center text-balance"
+          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[1.1] font-semibold text-center text-balance text-foreground"
         />
 
         <TextAnimation
-          text={"TrabyOS is a voice-first interface that connects market movement, understanding, your position, and trading action inside one professional environment."}
+          text={"Understand market moves, review your positions, and prepare trades through conversation."}
           variant={"slide-up"}
           gradientText={false}
           tag="p"
-          className="md:max-w-7/10 text-lg md:text-xl leading-snug text-balance"
+          className="max-w-2xl text-lg md:text-xl lg:text-2xl leading-relaxed text-accent text-balance"
         />
 
-        <div className="flex flex-wrap justify-center gap-3 mt-2 md:mt-3">
-          <Button text={primaryButton.text} href={primaryButton.href} variant="primary"/>
-          <Button text={secondaryButton.text} href={secondaryButton.href} variant="secondary"animationDelay={0.1} />
-        </div>
-      </div>
-
-      <div className="w-content-width mx-auto overflow-hidden mask-fade-x">
-        <div className="flex w-max animate-marquee-horizontal" style={{ animationDuration: "60s" }}>
-          {duplicated.map((item, i) => (
-            <div key={i} className="shrink-0 w-60 md:w-75 2xl:w-80 aspect-4/5 mr-3 md:mr-5 p-2 xl:p-3 2xl:p-4 card rounded-lg overflow-hidden">
-              <ImageOrVideo
-                imageSrc={item.imageSrc}
-                videoSrc={item.videoSrc}
-                className="w-full h-full rounded-lg object-cover"
-              />
-            </div>
-          ))}
+        <div className="flex justify-center mt-2">
+          <Button text="Explore the workflow" href="#how-it-works" variant="primary" />
         </div>
       </div>
     </section>
