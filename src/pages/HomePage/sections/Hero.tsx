@@ -58,7 +58,7 @@ const HeroInline = () => {
         </span>
 
         <TextAnimation
-          text={"Your voice. Your market. Your move."}
+          text={"The voice interface for financial markets."}
           variant={"slide-up"}
           gradientText={false}
           tag="h1"
