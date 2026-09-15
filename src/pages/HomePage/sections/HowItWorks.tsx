@@ -31,7 +31,7 @@ export default function HowItWorksSection(): React.JSX.Element {
               description: "Execute trades faster with context-aware command tools.",
             },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/woman-typing-laptop-sitting-home-with-automation-lighting-system_482257-8729.jpg?_wi=2"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3GLo0YRGGsIy7uNuPUjGzkkSL86/uploaded-1789431101591-nga47uy4.png"
           textAnimation="fade-blur"
         />
         </SectionErrorBoundary>
